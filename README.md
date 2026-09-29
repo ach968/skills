@@ -16,6 +16,8 @@ The installer lets you choose skills, agents, and installation scope.
 | --- | --- |
 | [technical-manual](skills/technical-manual/SKILL.md) | Research, write, illustrate, and verify dense PDF manuals on any topic. Includes dark and light cover styles, an HTML/PDF renderer, and a reproducible evidence workflow. |
 
+The technical-manual skill is inspired by [Caleb Fahlgren's post about learning with dense, source-grounded manuals](https://x.com/calebfahlgren/status/2104283566746329132).
+
 ## Adding skills
 
 Place each skill in `skills/<skill-name>/`, with a `SKILL.md` entrypoint and any references, scripts, or assets it needs. Keep generated documents, dependencies, and private working material outside the skill directory.
