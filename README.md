@@ -14,9 +14,7 @@ The installer lets you choose skills, agents, and installation scope.
 
 | Skill | Purpose |
 | --- | --- |
-| [technical-manual](skills/technical-manual/SKILL.md) | Research, write, illustrate, and verify dense PDF manuals on any topic. Includes dark and light cover styles, an HTML/PDF renderer, and a reproducible evidence workflow. |
-
-The technical-manual skill is inspired by [Caleb Fahlgren's post about learning with dense, source-grounded manuals](https://x.com/calebfahlgren/status/2104283566746329132).
+| [technical-manual](skills/technical-manual/SKILL.md) | Research, write, illustrate, and verify dense PDF manuals on any topic. Includes dark and light cover styles, an HTML/PDF renderer, and a reproducible evidence workflow. Inspired by [Caleb Fahlgren's post about learning with dense, source-grounded manuals](https://x.com/calebfahlgren/status/2104283566746329132). |
 
 ## Adding skills
 
