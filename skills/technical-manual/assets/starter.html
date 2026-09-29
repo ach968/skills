@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Replace: Technical Manual</title>
+<link rel="stylesheet" href="manual.css">
+</head>
+<body>
+<section class="cover"><div class="cover-meta">
+<span>Technical manual</span><span>Replace edition - 2026</span>
+</div>
+<!-- For a light drafting plate, add data-manual-theme="plate" to <html>. Replace this hero with a topic-specific anatomy: show the whole, one magnified region, numbered callouts, and a short key. Keep it illustrative until every label is sourced. -->
+<svg class="cover-diagram" viewBox="0 0 900 300" role="img" aria-label="Illustrative topic system diagram"><path class="cover-link" d="M180 150H390M510 150H720M450 85v130"></path><rect class="cover-primary" x="45" y="105" width="135" height="90" rx="7"></rect><rect class="cover-secondary" x="390" y="105" width="120" height="90" rx="7"></rect><rect class="cover-tertiary" x="720" y="105" width="135" height="90" rx="7"></rect><circle class="cover-zoom" cx="450" cy="150" r="78"></circle><text class="cover-label cover-label-primary" x="70" y="157">INPUT</text><text class="cover-label cover-label-secondary" x="410" y="157">MODEL</text><text class="cover-label cover-label-tertiary" x="745" y="157">OUTPUT</text><text class="cover-callout" x="416" y="72">RULES</text><text class="cover-callout" x="392" y="252">EVIDENCE</text></svg><h1 class="manual-title"><span class="replace">Your multiword topic</span></h1>
+<div class="subtitle">Technical Manual</div>
+<p class="cover-deck">A rigorous, visual guide to <span class="replace">the subject, system, or method being documented</span>. Replace every highlighted phrase with source-supported material.</p>
+<div class="legend">
+<span><i></i>orientation</span><span><i style="--dot:var(--blue)"></i>structure</span><span><i style="--dot:var(--teal)"></i>operations</span>
+</div></section><section class="toc"><div class="eyebrow">Contents</div>
+<h1>Guide map</h1>
+<p class="deck">A generated index: Paged.js resolves page numbers after the document flows.</p>
+<ol>
+<li class="toc-part">Part I - Orientation</li>
+<li><a href="#purpose"><span>What it is for</span></a></li>
+<li><a href="#model"><span>The working model</span></a></li>
+<li class="toc-part">Part II - Practice</li>
+<li><a href="#workflow"><span>A repeatable workflow</span></a></li>
+<li><a href="#sources"><span>Sources and limits</span></a></li>
+</ol></section><main><section class="part"><div class="part-no">Part I</div>
+<h1>Orientation</h1>
+<p>Define the subject, its boundary, and the evidence a reader needs before acting.</p></section><section id="purpose"><div class="eyebrow">Chapter 1</div>
+<h1>What <span class="replace">your topic</span> is for</h1>
+<p class="deck">State the reader's job in one precise sentence, then explain the design constraint that makes the subject worth understanding.</p>
+<hr class="section-rule">
+<p class="lead"><span class="replace">Replace this paragraph with a sourced introduction.</span> Give the reader a concrete before-and-after: what is difficult today, and what becomes possible once they understand the system.</p>
+<h2>The problem it solves</h2>
+<p>Start with observed conditions. Separate facts, assumptions, and recommendations so the manual remains useful when implementation details change.</p>
+<figure><figcaption>Decision path</figcaption><svg viewBox="0 0 760 185" role="img" aria-label="A generic three-stage decision flow"><path fill="none" stroke="#786f64" stroke-width="2" d="M210 85h72m195 0h72"></path><g fill="#f8f6f0" stroke="#c9c3b7"><rect x="10" y="38" width="200" height="94" rx="4"></rect><rect x="282" y="38" width="195" height="94" rx="4"></rect><rect x="549" y="38" width="200" height="94" rx="4"></rect></g><g fill="#1d1a17" font-family="Source Sans 3" font-size="15"><text x="60" y="77">Observe</text><text x="330" y="77">Decide</text><text x="598" y="77">Act</text></g><g fill="#6c665e" font-family="JetBrains Mono" font-size="11"><text x="40" y="105">facts, inputs, bounds</text><text x="306" y="105">rules and tradeoffs</text><text x="574" y="105">result and evidence</text></g></svg></figure><p class="caption"><strong>Three stages.</strong> Replace labels and relationships with the actual mechanism for the topic.</p>
+<table>
+<caption>Claims to establish</caption>
+<thead><tr>
+<th>Claim</th>
+<th>Evidence</th>
+<th>Reader consequence</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Scope</td>
+<td>Primary specification or data</td>
+<td>Knows what is included</td>
+</tr>
+<tr>
+<td>Constraint</td>
+<td>Measured limitation</td>
+<td>Can choose a safe path</td>
+</tr>
+<tr>
+<td>Outcome</td>
+<td>Reproducible example</td>
+<td>Can verify the result</td>
+</tr>
+</tbody>
+</table>
+<aside class="note"><strong>Author note</strong><p>Use figures for relationships that are hard to parse in prose. Every figure needs a title, a readable caption, and a stated source or an explicit illustrative label.</p></aside></section><section id="model"><div class="section-number">1.2</div>
+<h1>The working model</h1>
+<p class="deck">Introduce the smallest vocabulary that lets the reader predict what happens next.</p>
+<p>Give each term one job. A dense manual earns detail through exact names, examples, and clear transitions.</p>
+<pre><code># Illustrative only - replace with a runnable, topic-specific example
+input -&gt; validate -&gt; transform -&gt; record evidence</code></pre>
+<p class="crossref">See <a href="#workflow">A repeatable workflow</a> for the operational sequence.</p></section><section class="part" style="--part-color:var(--teal)"><div class="part-no">Part II</div>
+<h1>Practice</h1>
+<p>Move from the model to a procedure that a reader can execute and inspect.</p></section><section id="workflow"><div class="eyebrow">Chapter 2</div>
+<h1>A repeatable workflow</h1>
+<p class="deck">Describe the sequence, its checks, and the places where judgment belongs.</p>
+<hr class="section-rule">
+<h2>Work in visible stages</h2>
+<p>For each stage, name the input, transformation, output, and verification. Use source links in the appendix for all non-obvious claims.</p>
+<table>
+<caption>Procedure skeleton</caption>
+<thead><tr>
+<th>Stage</th>
+<th>Do</th>
+<th>Check</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Prepare</td>
+<td>Collect bounded inputs</td>
+<td>Record version and source</td>
+</tr>
+<tr>
+<td>Execute</td>
+<td>Apply documented method</td>
+<td>Inspect intermediate result</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>Compare with expected behavior</td>
+<td>State uncertainty</td>
+</tr>
+</tbody>
+</table></section><section id="sources" class="sources"><div class="eyebrow">Appendix</div>
+<h1>Sources and limits</h1>
+<p class="deck">A manual is trustworthy when readers can locate its evidence and see where that evidence ends.</p>
+<ol>
+<li><span class="replace">Replace with primary source: author, title, version/date, URL, accessed date.</span></li>
+<li><span class="replace">Replace with a specification, dataset, or reproducible experiment.</span></li>
+</ol>
+<p>Do not retain illustrative claims, labels, code, or diagrams in this starter.</p></section></main>
+</body>
+</html>

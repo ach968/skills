@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Manual"
+  short_description: "Source-grounded illustrated manuals on any topic"
+  default_prompt: "Use $technical-manual to create a deeply researched, illustrated PDF manual on my topic, with primary sources, worked examples, and a teaching structure suited to the subject."
